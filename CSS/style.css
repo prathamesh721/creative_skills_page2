@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Segoe UI;
+  src: url(./fonts/Segoe\ UI.ttf);
+}
+@font-face {
+  font-family: Akkurat Pro;
+  src: url(./fonts/AkkuratPro-Bold.otf);
+}
+@font-face {
+  font-family: Akkurat Light Pro;
+  src: url(./fonts/Akkurat-Light.ttf);
+}
+@font-face {
+  font-family: Migra;
+  src: url(./fonts/Migra-Extrabold.ttf);
+}
+@font-face {
+  font-family: Grotesk BE -medium;
+  src: url(./fonts/berthold-akzidenz-grotesk-be-regular.ttf);
+}
+@font-face {
+  font-family: Grotesk BE - light;
+  src: url(./fonts/akzidenz-grotesk-light.ttf);
+}
+html{
+  font-size: 1rem;
+}
+.container-fluid {
+  
+    background-image: linear-gradient(
+    to bottom,
+    rgb(189, 159, 157),
+    rgb(198, 196, 171)
+  );
+  color: white;
+
+ 
+}
+
+
+nav img {
+  
+  
+  color: white;
+}
+
+
+
+
+
+
+
+footer {
+  
+  background-color: white;
+  color: black;
+}
+footer h2 {
+  font-family: Grotesk BE -medium;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  
+}
+footer span {
+  font-family: Grotesk BE - light;
+  display: block;
+}
+
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .first-heading{
+    width: 50%;
+  } 
+  .questionP{
+    width: 30%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .first-heading{
+    width: 50%;
+  }
+  .questionP{
+    width: 30%;
+  }
+}
